@@ -1,4 +1,4 @@
-const db = require('../../db');
+const db = require('../../dbConn');
 const bookQuery = require('./queries.model')
 const bookValidation = require('../validation/book.validation')
 const utilMessage = require('../constant/constant')

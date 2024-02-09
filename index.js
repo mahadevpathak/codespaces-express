@@ -5,7 +5,6 @@ const bookRoutes =require('./src/book/book.routes')
 
 app.use(express.json())
 app.use('/api/v1/bookRoutes',bookRoutes)
-app.use('/api/v1/userRoutes',userRoutes)
 
 app.get("/",(req,res)=>{
     res.json("Hello WE ARE HERE !")
